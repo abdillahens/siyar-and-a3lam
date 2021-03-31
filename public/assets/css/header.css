@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,700;1,700&display=swap');
+
+.icon{
+  width: auto;
+  height:50px;
+}
+.btn-join{
+  background-color: #0277BD !important;
+  color: white !important;
+}
+.btn-login{
+  background-color: #6F9A37 !important;
+  color: white !important;
+}
+.form-control{
+  width:30vw !important;
+}
+.nav2{
+  
+  background-color: #707070;
+  height:60px;
+  display:flex;
+  align-items: center;
+
+}
+.Menu{
+  color:white;
+  display: flex;
+  justify-content: right;
+
+}
+.Menu span{
+  margin-left: 10%;
+
+}
+
+.navbar-pages{
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.form-search{
+  background-color: white;
+  /* border:1px solid red; */
+}
+.form-inline{
+  
+}
+input.form-control{
+  /* padding: 0 !important; */
+  border:none !important;
+  background-color: #ffffff !important;
+  height: 30px !important;
+  
+}
+button.search-btn{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color:#FF3D00;
+  font-family: Amiri;
+  font-weight:bold;
+  
+}
+.fa-search{
+  /* padding: 5px; */
+  padding-top: 25px;
+  transform: rotate(90deg);
+  font-size: 1.5em;
+}
+.book-image{
+  height:350px;
+  width:auto;
+}
+.presentation{
+  background: url(../images/black-texture.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 90vh;
+  
+}
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+.Title-presentation{
+  color : rgb(255, 255, 255) !important;
+  text-align: right;
+  /* background-color: #0277BD; */
+}
+.about-book{
+  color:rgb(255, 255, 255) !important;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.text-animation{
+  opacity: 0;
+  transition: all 0.5s ;
+}
+.effet{
+  opacity:1;
+}
+.layers{
+
+  background: url(../images/black-texture.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 90vh;
+  
+}
+.layers-text{
+  background-color: #707070;
+  margin: 8px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  font-size: 1.01em;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  /* padding: 10px; */
+}
